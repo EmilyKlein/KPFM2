@@ -1,0 +1,278 @@
+SETUP																																																													
+N.SSMU	N.Bathtub	N.season	Timeseries.Yrs	Krill.Rage	Init.Season	Base.Fishing.Option																																																							
+15	3	2	38	2	1	3																																																							
+																																																													
+SSMU.INFO																																																													
+SSMU	SSMU	Area.(m2)	Historical.Catch(g)																																																										
+1	APPA	4.22E+11	25376000000																																																										
+2	APW	35060000000	7400000000																																																										
+3	APDPW	15068000000	2.27741E+11																																																										
+4	APDPE	15584000000	1.03169E+11																																																										
+5	APBSW	21017000000	11463000000																																																										
+6	APBSE	27447000000	5952000000																																																										
+7	APEI	35322000000	94930000000																																																										
+8	APE	58704000000	25000000																																																										
+9	SOPA	8.09E+11	6248000000																																																										
+10	SOW	15569000000	2.17374E+11																																																										
+11	SONE	10251000000	15856000000																																																										
+12	SOSE	14954000000	19531000000																																																										
+13	SGPA	9.20E+11	7822000000																																																										
+14	SGW	42119000000	31436000000																																																										
+15	SGE	53735000000	2.0887E+11																																																										
+16	BT1	1.88E+12	NA																																																										
+17	BT2	7.80E+11	NA																																																										
+18	BT3	5.24E+11	NA																																																										
+																																																													
+WHALES																																																													
+		Rage	init.type	init.value	Jphi	M	Mswitch	Mprop	Ralpha	RSpeak	RRpeak	Rphi	Qq	QQmax	Qk5	M	Mswitch	Mprop	Ralpha	RSpeak	RRpeak	Rphi	Qq	QQmax	Qk5	p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13	p14	p15	p16	p17	p18	p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13	p14	p15	p16	p17	p18
+SSMU	SSMU	NA	NA	NA	NA	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2
+1	APPA	5	N	2680	NA	0.035	0	0	0.1077	17420	1153	0.37	0	119440271.8	15	0.035	0	0	0	NA	NA	NA	0	0	15	0.6697	0.0556	0.0239	0.0247	0.0333	0.0435	0.056	0.0931	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2	APW	5	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+3	APDPW	5	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+4	APDPE	5	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+5	APBSW	5	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+6	APBSE	5	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+7	APEI	5	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+8	APE	5	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+9	SOPA	6	N	2970	NA	0.0289	0	0	0.1032	19305	1098	0.37	0	131401312.9	15	0.0289	0	0	0	NA	NA	NA	0	0	15	0	0	0	0	0	0	0	0	0.4338	0.0083	0.0055	0.008	0.493	0.0226	0.0288	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	SOW	6	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+11	SONE	6	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+12	SOSE	6	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+13	SGPA	6	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14	SGW	6	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+15	SGE	6	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+																																																													
+SEALS																																																													
+		Rage	init.type	init.value	Jphi	M	Mswitch	Mprop	Ralpha	RSpeak	RRpeak	Rphi	Qq	QQmax	Qk5	M	Mswitch	Mprop	Ralpha	RSpeak	RRpeak	Rphi	Qq	QQmax	Qk5	p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13	p14	p15	p16	p17	p18	p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13	p14	p15	p16	p17	p18
+SSMU	SSMU	NA	NA	NA	NA	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2
+1	APPA	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+2	APW	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+3	APDPW	4	N	413	0.1	0.1306	0	0	0.3978	7933	1464	0.37	0	3507360	20	0.1306	0	0	0	NA	NA	NA	0	2260218	20	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.09	0.01	0	0	0	0.01	0.01	0.01	0.16	0	0	0	0.18	0.01	0.01	0.1	0.3	0.1
+4	APDPE	4	N	7	0.1	0.1306	0	0	0.3978	137	32	0.37	0	3507360	20	0.1306	0	0	0	NA	NA	NA	0	2260218	20	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.09	0.01	0	0	0	0.01	0.01	0.01	0.16	0	0	0	0.18	0.01	0.01	0.1	0.3	0.1
+5	APBSW	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+6	APBSE	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+7	APEI	4	N	34	0.1	0.1306	0	0	0.3978	651	125	0.37	0	3507360	20	0.1306	0	0	0	NA	NA	NA	0	2260218	20	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0.09	0.01	0	0	0	0.01	0.01	0.01	0.16	0	0	0	0.18	0.01	0.01	0.1	0.3	0.1
+8	APE	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+9	SOPA	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10	SOW	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+11	SONE	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+12	SOSE	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+13	SGPA	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14	SGW	4	N	70208	0.1	0.1306	0	0	0.3978	1024994	185117	0.37	0	3507360	20	0.1306	0	0	0	NA	NA	NA	0	2260218	20	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0.09	0.01	0	0	0	0.01	0.01	0.01	0.16	0	0	0	0.18	0.01	0.01	0.1	0.3	0.1
+15	SGE	4	N	700	0.1	0.1306	0	0	0.3978	10215	1886	0.37	0	3507360	20	0.1306	0	0	0	NA	NA	NA	0	2260218	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0.09	0.01	0	0	0	0.01	0.01	0.01	0.16	0	0	0	0.18	0.01	0.01	0.1	0.3	0.1
+																																																													
+PENGS																																																													
+		Rage	init.type	init.value	Jphi	M	Mswitch	Mprop	Ralpha	RSpeak	RRpeak	Rphi	Qq	QQmax	Qk5	M	Mswitch	Mprop	Ralpha	RSpeak	RRpeak	Rphi	Qq	QQmax	Qk5	p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13	p14	p15	p16	p17	p18	p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13	p14	p15	p16	p17	p18
+SSMU	SSMU	NA	NA	NA	NA	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2
+1	APPA	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+2	APW	4	N	241540	1	0.0835	0	0	0.1986	260472	78527	0.37	0	676754	20	0.0835	0	0	0	NA	NA	NA	0	481040	20	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.08	0.15	0	0	0.01	0.01	0.01	0.03	0.1	0	0	0.01	0.11	0.01	0.01	0.23	0	0.23
+3	APDPW	3	N	71164	1	0.1116	0	0	0.2331	76742	28617	0.37	0	554859	20	0.1116	0	0	0	NA	NA	NA	0	446368	20	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.17	0.02	0.07	0.01	0.01	0.01	0.01	0.04	0.28	0.01	0	0.01	0.32	0.02	0.02	0	0	0
+4	APDPE	3	N	1183090	1	0.1116	0	0	0.221	1275823	509033	0.37	0	546937	20	0.1116	0	0	0	NA	NA	NA	0	449224	20	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.17	0.02	0.01	0.01	0.01	0.01	0.01	0.03	0.31	0.01	0	0.01	0.35	0.02	0.02	0	0	0
+5	APBSW	3	N	1079278	1	0.1116	0	0	0.2223	1163874	433692	0.37	0	547800	20	0.1116	0	0	0	NA	NA	NA	0	448911	20	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0.17	0.02	0.01	0.01	0.02	0.01	0.01	0.03	0.31	0.01	0	0.01	0.35	0.02	0.02	0	0	0
+6	APBSE	4	N	259496	1	0.081	0	0	0.1895	279836	82610	0.37	0	684375	20	0.081	0	0	0	NA	NA	NA	0	486200	20	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.07	0.01	0	0	0.01	0.13	0.01	0.02	0.1	0	0	0.01	0.11	0.01	0.01	0.25	0	0.25
+7	APEI	3	N	852001	1	0.1116	0	0	0.2198	918782	342394	0.37	0	546148	20	0.1116	0	0	0	NA	NA	NA	0	449510	20	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0.17	0.02	0.01	0.01	0.01	0.01	0.02	0.03	0.32	0.01	0	0.01	0.36	0.02	0.02	0	0	0
+8	APE	5	N	715053	1	0.0587	0	0	0.1442	771100	184029	0.37	0	797203	20	0.0587	0	0	0	NA	NA	NA	0	528720	20	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.1	0	0	0	0	0	0	0	0.45	0	0.45
+9	SOPA	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+10	SOW	3	N	1812	1	0.1116	0	0	0.2193	1954	717	0.37	0	545793	20	0.1116	0	0	0	NA	NA	NA	0	449638	20	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0.17	0.02	0.01	0.01	0.01	0.01	0.01	0.03	0.32	0.01	0	0.01	0.36	0.02	0.02	0	0	0
+11	SONE	5	N	463307	1	0.0595	0	0	0.1456	499622	118354	0.37	0	791914	20	0.0595	0	0	0	NA	NA	NA	0	526953	20	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.01	0	0.1	0	0.01	0	0	0.44	0	0.44
+12	SOSE	3	N	1588430	1	0.0989	0	0	0.2028	1712934	573708	0.37	0	594790	20	0.0989	0	0	0	NA	NA	NA	0	464345	20	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0.13	0.01	0.01	0.01	0.01	0.01	0.01	0.02	0.24	0	0	0.04	0.27	0.01	0.02	0.1	0	0.1
+13	SGPA	NA	N	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+14	SGW	5	N	6642811	1	0.0417	0	0	0.1079	4317827	879308	0.37	0	494138	20	0.0417	0	0	0	NA	NA	NA	0	489791	20	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0.09	0.01	0	0	0	0.01	0.01	0.02	0.16	0	0	0	0.18	0.51	0.01	0	0	0
+15	SGE	4	N	564496	1	0.0661	0	0	0.1843	366922	118934	0.37	0	536057	20	0.0661	0	0	0	NA	NA	NA	0	467405	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0.11	0.02	0.01	0.01	0.01	0.01	0.01	0.04	0.11	0	0	0.01	0.12	0.02	0.52	0	0	0
+																																																													
+FISH																																																													
+		Rage	init.type	init.value	Jphi	M	Mswitch	Mprop	Ralpha	RSpeak	RRpeak	Rphi	Qq	QQmax	Qk5	M	Mswitch	Mprop	Ralpha	RSpeak	RRpeak	Rphi	Qq	QQmax	Qk5	p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13	p14	p15	p16	p17	p18	p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13	p14	p15	p16	p17	p18
+SSMU	SSMU	NA	NA	NA	NA	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2
+1	APPA	2	N	8402727132	NA	0.3693	0	0	10	8500000000	6616624108	0.37	0	1949.7003	5	0.3693	0	0	0	NA	NA	NA	0	271.7391	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2	APW	3	N	834429245	NA	0.2483	0	0	10	850000000	421233884	0.37	0	3386.2551	5	0.2483	0	0	0	NA	NA	NA	0	673.913	5	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3	APDPW	3	N	301932508	NA	0.2934	0	0	10	320000000	181072676	0.37	0	2881.2925	5	0.2934	0	0	0	NA	NA	NA	0	493.4783	5	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	APDPE	3	N	322045302	NA	0.2824	0	0	10	330000000	188330169	0.37	0	3007.6453	5	0.2824	0	0	0	NA	NA	NA	0	532.6087	5	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	APBSW	3	N	438862551	NA	0.2782	0	0	10	450000000	248962308	0.37	0	3054.4518	5	0.2782	0	0	0	NA	NA	NA	0	547.8261	5	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+6	APBSE	3	N	574691426	NA	0.2779	0	0	10	590000000	325634482	0.37	0	3058.1646	5	0.2779	0	0	0	NA	NA	NA	0	550	5	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+7	APEI	2	N	679683642	NA	0.3532	0	0	10	690000000	493237456	0.37	0	2156.8696	5	0.3532	0	0	0	NA	NA	NA	0	313.0435	5	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+8	APE	3	N	1553175192	NA	0.234	0	0	10	1600000000	738154270	0.37	0	3539.9522	5	0.234	0	0	0	NA	NA	NA	0	743.4783	5	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+9	SOPA	2	N	69055728795	NA	0.4845	0	0	10	70000000000	71456960666	0.37	0	303.8297	5	0.4845	0	0	0	NA	NA	NA	0	52.1739	5	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+10	SOW	2	N	320095594	NA	0.3809	0	0	10	340000000	250889095	0.37	0	1797.2609	5	0.3809	0	0	0	NA	NA	NA	0	243.4783	5	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+11	SONE	2	N	196909670	NA	0.3458	0	0	10	200000000	139280773	0.37	0	2250.2935	5	0.3458	0	0	0	NA	NA	NA	0	332.6087	5	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+12	SOSE	3	N	389311850	NA	0.2364	0	0	10	400000000	186353705	0.37	0	3513.6192	5	0.2364	0	0	0	NA	NA	NA	0	730.4348	5	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+13	SGPA	2	N	2.49E+11	NA	0.4962	0	0	10	2.50E+11	2.64E+11	0.37	0	92.5524	5	0.4962	0	0	0	NA	NA	NA	0	34.7826	5	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+14	SGW	2	N	1140779048	NA	0.3358	0	0	10	1200000000	800600899	0.37	0	1432.5866	5	0.3358	0	0	0	NA	NA	NA	0	382.6087	5	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+15	SGE	2	N	1477796628	NA	0.3438	0	0	10	1500000000	1061832531	0.37	0	1372.4476	5	0.3438	0	0	0	NA	NA	NA	0	358.6957	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+																																																													
+KRILL																																																													
+		wbar	init.density	M0	Ralpha	Rbeta	Rphi	M0	Ralpha	Rbeta	Rphi																																																		
+Area	SSMU	NA	NA	1	1	1	1	2	2	2	2																																																		
+1	APPA	0.46	39.2	0	1.73E+12	1000	1	0	0	NA	NA																																																		
+2	APW	0.46	272	0	2.07E+13	1000	1	0	0	NA	NA																																																		
+3	APDPW	0.46	272	0	1.45E+13	1000	1	0	0	NA	NA																																																		
+4	APDPE	0.46	75.4	0	2.82E+12	1000	1	0	0	NA	NA																																																		
+5	APBSW	0.46	271.92	0	1.86E+13	1000	1	0	0	NA	NA																																																		
+6	APBSE	0.46	271.92	0	1.37E+13	1000	1	0	0	NA	NA																																																		
+7	APEI	0.46	271.92	0	1.45E+13	1000	1	0	0	NA	NA																																																		
+8	APE	0.46	271.92	0	2.71E+13	1000	1	0	0	NA	NA																																																		
+9	SOPA	0.46	62.94	0	896739130	1000	1	0	0	NA	NA																																																		
+10	SOW	0.46	638.84	0	3.51E+13	1000	1	0	0	NA	NA																																																		
+11	SONE	0.46	638.84	0	2.30E+13	1000	1	0	0	NA	NA																																																		
+12	SOSE	0.46	638.84	0	3.08E+13	1000	1	0	0	NA	NA																																																		
+13	SGPA	0.46	62.94	0	7657608696	1000	1	0	0	NA	NA																																																		
+14	SGW	0.46	67.68	0	4500000000	1000	1	0	0	NA	NA																																																		
+15	SGE	0.46	67.68	0	2103260870	1000	1	0	0	NA	NA																																																		
+16	BT1	0.46	NA	NA	NA	NA	NA	NA	NA	NA	NA																																																		
+17	BT2	0.46	NA	NA	NA	NA	NA	NA	NA	NA	NA																																																		
+18	BT2	0.46	NA	NA	NA	NA	NA	NA	NA	NA	NA																																																		
+																																																													
+CATCH.SETUP																																																													
+Year	Season	SSMU.1	SSMU.2	SSMU.3	SSMU.4	SSMU.5	SSMU.6	SSMU.7	SSMU.8	SSMU.9	SSMU.10	SSMU.11	SSMU.12	SSMU.13	SSMU.14	SSMU.15																																													
+1	1	0.7852	0.4421	0.4466	0.7591	0.3015	0.3706	0.8346	0.7322	0.8575	0.4819	0.9631	0.5266	0.7429	0.0713	0.0114																																													
+1	2	0.2148	0.5579	0.5534	0.2409	0.6985	0.6294	0.1654	0.2678	0.1425	0.5181	0.0369	0.4734	0.2571	0.9287	0.9886																																													
+																																																													
+FISHING.OPTION5.SETUP																																																													
+Option5.Areas	Monitored.Spp.	Monitoring.Season	N.Points	Density.distribution	Obs.Multiplier	Obs.SD																																																							
+1	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+2	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+3	pengs	1	10	"runif(n=100,min=5,max=45)"	1	0.01																																																							
+4	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+5	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+6	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+7	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+8	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+9	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+10	pengs	1	10	"runif(n=100,min=5,max=45)"	1	0.01																																																							
+11	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+12	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+13	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+14	pengs	1	10	"runif(n=100,min=5,max=45)"	1	0.01																																																							
+15	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+16	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+17	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+18	NA	NA	NA	"runif(n=100,min=5,max=45)"	NA	NA																																																							
+																																																													
+THESHOLD.DENSITY																																																													
+SSMU.1	SSMU.2	SSMU.3	SSMU.4	SSMU.5	SSMU.6	SSMU.7	SSMU.8	SSMU.9	SSMU.10	SSMU.11	SSMU.12	SSMU.13	SSMU.14	SSMU.15																																															
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																															
+																																																													
+AVAILABLE.FRACTION																																																													
+SSMU.1	SSMU.2	SSMU.3	SSMU.4	SSMU.5	SSMU.6	SSMU.7	SSMU.8	SSMU.9	SSMU.10	SSMU.11	SSMU.12	SSMU.13	SSMU.14	SSMU.15	BT.1	BT.2	BT.3																																												
+0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.95																																												
+																																																													
+VMATRIX																																																													
+Name	SSMU.1	SSMU.2	SSMU.3	SSMU.4	SSMU.5	SSMU.6	SSMU.7	SSMU.8	SSMU.9	SSMU.10	SSMU.11	SSMU.12	SSMU.13	SSMU.14	SSMU.15	BT.1	BT.2	BT.3	SSMU.1	SSMU.2	SSMU.3	SSMU.4	SSMU.5	SSMU.6	SSMU.7	SSMU.8	SSMU.9	SSMU.10	SSMU.11	SSMU.12	SSMU.13	SSMU.14	SSMU.15	BT.1	BT.2	BT.3																									
+Season	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2																									
+SSMU.1	0	0.0386	0.0091	0.0015	0.0091	0.0152	0.0137	0	0.3117	0.0061	0	0.003	0.389	0.0137	0.0106	0	0.0106	0.0852	0	0.0338	0	0	0.0137	0.0137	0.0624	0	0.2399	0.0091	0.0015	0	0.407	0.023	0.0183	0	0.0261	0																									
+SSMU.2	0.077	0	0	0	0.0187	0	0	0	0.3254	0	0	0	0.2754	0	0	0	0	0	0.0972	0	0	0	0.0377	0	0	0	0.1603	0	0	0	0.4055	0	0	0	0	0																									
+SSMU.3	0	0	0	0	0	0	0	0	0	0	0	0	1.1896	0	0	0	0	0.2451	0	0	0	0	0.0445	0	0	0	0	0	0	0	2.0369	0	0	0	0	0																									
+SSMU.4	0	0	0	0	0	0	0.0445	0	0	0	0	0	0.3023	0	0	0	0	1.1896	0	0	0	0	0	0	0.0445	0	0	0	0	0	0.3023	0	0	0	0	0																									
+SSMU.5	0	0.0328	0.0328	0	0	0.0328	0	0	0.0328	0	0	0	0.9491	0	0	0	0	0.2151	0	0	0.0328	0	0	0.0667	0	0	0.1018	0	0	0	1.4881	0	0	0	0	0																									
+SSMU.6	0.0235	0	0	0	0.0235	0	0	0	0.0235	0	0	0	0.1503	0	0	0	0	0.7655	0	0	0	0.0235	0.0235	0	0	0	0.0723	0	0	0	0.3272	0	0	0	0	0																									
+SSMU.7	0	0	0	0	0	0	0	0	0.2603	0	0	0	0.0645	0	0	0	0	0.9268	0.0426	0	0	0	0	0	0	0	0.2336	0	0	0	0.0426	0	0	0	0	0																									
+SSMU.8	0.0861	0	0	0	0	0.0529	0.0421	0	0.1803	0.0314	0	0	0.0104	0	0	0	0	0.0421	0.0314	0	0	0	0	0.0529	0.0749	0	0.0861	0	0	0	0.0861	0	0	0	0	0.0104																									
+SSMU.9	0.0046	0	0	0	0	0	0	0	0	0.0018	0.0111	0.0055	0.0018	0	0	0	0	1.0109	0.0074	0	0	0	0	0	0	0	0	0.0055	0.0074	0.0092	0.0018	0	0.0055	0	0	0																									
+SSMU.10	0	0	0	0	0	0	0	0	2.9957	0	0	0	0.0513	0	0	0	0	0	0	0	0	0	0	0	0	0	1.8971	0	0	0.0513	0	0	0	0	0	0																									
+SSMU.11	0	0	0	0	0	0	0	0	2.7726	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11.5129	0	0	0	0	0	0	0	0	0																									
+SSMU.12	0	0	0	0	0	0	0	0	1.6582	0	0.2113	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.9459	0	0.1001	0	0	0	0	0	0	0																									
+SSMU.13	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0097	0.0156	0	0.001	1.5577	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0039	0.0078	0	0	0																									
+SSMU.14	0	0	0	0	0	0	0	0	0	0	0	0	0.0465	0	0.2288	0	0	1.2993	0	0	0	0	0	0	0	0	0	0	0	0	0.0706	0	0.2578	0	0	0																									
+SSMU.15	0	0	0	0	0	0	0	0	0	0	0	0	0.015	0	0	0	0	1.7198	0	0	0	0	0	0	0	0	0	0	0	0	0.0616	0	0	0	0	0																									
+BT.1	0.1287	0.005	0.0028	0.0032	0.0007	0.0025	0.0075	0	0.015	0	0	0	0.0934	0	0	0	0.2262	0	0.1283	0.0046	0.0028	0.0014	0.0014	0.0007	0.0064	0	0.0111	0	0	0	0.102	0	0	0	0.2262	0																									
+BT.2	0	0	0	0	0	0	0	0	0.0022	0	0	0	0.2561	0.0274	0.0219	0	0	0	0	0	0	0	0	0	0	0	0.0043	0	0	0	0.2659	0.0219	0.0163	0	0	0																									
+BT.3	0.1363	0	0	0	0	0	0.0082	0.0555	0.3504	0.0113	0	0	0	0	0	0	0	0	0.1363	0	0	0	0	0	0.03	0.0653	0.4009	0.0051	0	0	0	0	0	0	0	0																									
+																																																													
+COMPETITION.MATRIX																																																													
+	Seals	Pengs	Whales	Fish	Fishery																																																								
+SSMU.1	1	1	1	1	1																																																								
+SSMU.2	1	1	1	1	1																																																								
+SSMU.3	1	1	1	1	1																																																								
+SSMU.4	1	1	1	1	1																																																								
+SSMU.5	1	1	1	1	1																																																								
+SSMU.6	1	1	1	1	1																																																								
+SSMU.7	1	1	1	1	1																																																								
+SSMU.8	1	1	1	1	1																																																								
+SSMU.9	1	1	1	1	1																																																								
+SSMU.10	1	1	1	1	1																																																								
+SSMU.11	1	1	1	1	1																																																								
+SSMU.12	1	1	1	1	1																																																								
+SSMU.13	1	1	1	1	1																																																								
+SSMU.14	1	1	1	1	1																																																								
+SSMU.15	1	1	1	1	1																																																								
+BT1	1	1	1	1	1																																																								
+BT2	1	1	1	1	1																																																								
+BT3	1	1	1	1	1																																																								
+																																																													
+TIMESERIES																																																													
+Year	Season	Tub1	Tub2 	Tub3	Env.anomoly	Fill down as required																																																							
+1	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+1	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+2	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+2	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+3	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+3	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+4	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+4	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+5	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+5	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+6	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+6	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+7	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+7	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+8	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+8	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+9	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+9	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+10	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+10	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+11	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+11	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+12	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+12	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+13	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+13	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+14	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+14	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+15	1	1.50E+14	1.90E+14	5.00E+13	0																																																								
+15	2	1.50E+14	1.90E+14	5.00E+13	0																																																								
+16	1	1.26E+14	1.60E+14	4.20E+13	-0.1733																																																								
+16	2	1.26E+14	1.60E+14	4.20E+13	-0.1733																																																								
+17	1	1.06E+14	1.34E+14	3.54E+13	-0.3466																																																								
+17	2	1.06E+14	1.34E+14	3.54E+13	-0.3466																																																								
+18	1	8.92E+13	1.13E+14	2.97E+13	-0.5199																																																								
+18	2	8.92E+13	1.13E+14	2.97E+13	-0.5199																																																								
+19	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+19	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+20	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+20	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+21	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+21	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+22	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+22	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+23	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+23	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+24	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+24	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+25	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+25	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+26	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+26	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+27	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+27	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+28	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+28	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+29	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+29	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+30	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+30	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+31	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+31	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+32	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+32	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+33	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+33	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+34	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+34	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+35	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+35	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+36	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+36	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+37	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+37	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+38	1	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
+38	2	7.50E+13	9.50E+13	2.50E+13	-0.6931																																																								
