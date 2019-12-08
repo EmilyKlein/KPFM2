@@ -7,7 +7,7 @@ This file contains information on the (1) data input files, (2) code for analysi
 > Watters GM et al. (2013) Decision-making for ecosystem-based management: evaluating options for a krill fishery with an ecosystem dynamics model. Ecol Appl 23 (4):710-725. doi:10.1890/12-137. 
 <br>
 
-*Further README files, code, and input data are available to run the analyses for impacts of climate change (https://github.com/EmilyKlein/KPFM2_Climate_change) and for running marine protected area and feedback management scenarios. Please refer there for that additoinal information.*
+*Further README files, code, and input data are available to run the analyses for impacts of climate change (https://github.com/EmilyKlein/KPFM2_Climate_change) and for running marine protected area and feedback management scenarios (https://github.com/EmilyKlein/KPFM2_MPA_FBM). Please refer there for that additoinal information.*
 
 <br>
 
