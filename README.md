@@ -24,12 +24,12 @@ The analysis utilizes several functions, some of which call the ecosystem model,
 `load.funcs.r`: Function to load and source all functions in a folder (use to easily get all necessary functions into the R workspace)<br>
 `import.all.parameters.r`: Function to load the KPFM2 input files (e.g., mlt, mst, nlt, nst). <br>
 `ssmu.ss.r`: The KPFM2 model, run in stochastic mode. Default plots are by SSMU and predator group for abundance and recruitment. This calls the additional functions: <br>
-	`allocate.catch.r`: Generalized function to allocate catch among areas <br>
-	`bt.abund,var.r`: Generates the variable bathtub krill abundances <br>
-	`m2f.root.r`: Estimates root of catch equation 	<br>
-	`plot.ss.C.r`: Plots changes in catch when fishing is implemented.<br>
-	`plot.ss.N.r`: Plots changes in abundance of krill and predators)<br>
-	`plot.ss.R.r`: Plots changes in recruitment of krill and predators)<br>
+*`allocate.catch.r`: Generalized function to allocate catch among areas <br>
+`bt.abund,var.r`: Generates the variable bathtub krill abundances <br>
+`m2f.root.r`: Estimates root of catch equation 	<br>
+`plot.ss.C.r`: Plots changes in catch when fishing is implemented.<br>
+`plot.ss.N.r`: Plots changes in abundance of krill and predators)<br>
+`plot.ss.R.r`: Plots changes in recruitment of krill and predators)<br>
  
 `ssmu.mc.r`: Function to run Monte Carlo simulations of KPFM2. Default plots are by SSMU and predator group for abundance and recruitment, and this calls the following additional functions:<br>
   `plot.mc.C.r`: Plots changes in catch when fishing is implemented.<br>
