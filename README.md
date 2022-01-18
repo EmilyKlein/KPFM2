@@ -20,54 +20,53 @@ This file contains information on the (1) data input files, (2) code for analysi
 The analysis utilizes several functions, some of which call the ecosystem model, KPFM2, as described in Watters et al. (2013). Detail on KPFM2 is available in the documentation for that manuscript.
   
 ### 2.1 The base KPFM2 code
-
 `load.funcs.r`: Function to load and source all functions in a folder (use to easily get all necessary functions into the R workspace)<br>
 `import.all.parameters.r`: Function to load the KPFM2 input files (e.g., mlt, mst, nlt, nst). <br>
 `ssmu.ss.r`: The KPFM2 model, run in stochastic mode. Default plots are by SSMU and predator group for abundance and recruitment. This calls the additional functions: <br>
-*`allocate.catch.r`: Generalized function to allocate catch among areas <br>
-`bt.abund,var.r`: Generates the variable bathtub krill abundances <br>
-`m2f.root.r`: Estimates root of catch equation 	<br>
-`plot.ss.C.r`: Plots changes in catch when fishing is implemented.<br>
-`plot.ss.N.r`: Plots changes in abundance of krill and predators)<br>
-`plot.ss.R.r`: Plots changes in recruitment of krill and predators)<br>
+&emsp;&emsp;`allocate.catch.r`: Generalized function to allocate catch among areas <br>
+&emsp;&emsp;`bt.abund,var.r`: Generates the variable bathtub krill abundances <br>
+&emsp;&emsp;`m2f.root.r`: Estimates root of catch equation 	<br>
+&emsp;&emsp;`plot.ss.C.r`: Plots changes in catch when fishing is implemented.<br>
+&emsp;&emsp;`plot.ss.N.r`: Plots changes in abundance of krill and predators)<br>
+&emsp;&emsp;`plot.ss.R.r`: Plots changes in recruitment of krill and predators)<br>
  
 `ssmu.mc.r`: Function to run Monte Carlo simulations of KPFM2. Default plots are by SSMU and predator group for abundance and recruitment, and this calls the following additional functions:<br>
-  `plot.mc.C.r`: Plots changes in catch when fishing is implemented.<br>
-  `plot.mc.N.r`: Plots changes in abundance of krill and predators)<br>
-  `plot.mc.R.r`: Plots changes in recruitment of krill and predators)<br>
+&emsp;&emsp;`plot.mc.C.r`: Plots changes in catch when fishing is implemented.<br>
+&emsp;&emsp;`plot.mc.N.r`: Plots changes in abundance of krill and predators)<br>
+&emsp;&emsp;`plot.mc.R.r`: Plots changes in recruitment of krill and predators)<br>
 
 
 ### 2.2 Running across multiple scenarios and risk assessment 
 `main.r`: Function to run either or both Monte Carlo simulations across multiple scenarios and risk assessment. If designated by the user via (`if runmcsims=TRUE`), this can call the following functions:<br>
-`run.mcsims.r`<br>
-`assess.risk.predators.r` <br>
-`assess.krill.fishery.r`<br>
-`assess.regional.krill.r` <br>
+&emsp;&emsp;`run.mcsims.r`<br>
+&emsp;&emsp;`assess.risk.predators.r` <br>
+&emsp;&emsp;`assess.krill.fishery.r`<br>
+&emsp;&emsp;`assess.regional.krill.r` <br>
 
 `run.mcsims.r`: Runs Monte Carlo simulations over multiple fishing scenarios and parameterizations. Calls the following functions: <br>
-`get.gamma.fractions.r` <br>
-	`ssmu.ss.r` <br> 
-`ssmu.ss.mc.r` <br> 
+&emsp;&emsp;`get.gamma.fractions.r` <br>
+&emsp;&emsp;`ssmu.ss.r` <br> 
+&emsp;&emsp;`ssmu.ss.mc.r` <br> 
 
 `assess.risk.predators.r`: Risk assessment for the predator groups across multiple fishing options and parameterizations; averages output across parameterizations. Calls the following functions:<br>
-`calc.risk.predators.r`: Calculates depletion risks for predator groups. This code calls the script <br>
-`get.gamma.fractions.r` <br>
-`merge.mc.r`: Aggregates output across Monte Carlo trials into a single output<br>
-`relative.mc.r`: Makes one Monte Carlo trial output object relative to others. 
+&emsp;&emsp;`calc.risk.predators.r`: Calculates depletion risks for predator groups. This code calls the script <br>
+&emsp;&emsp;&emsp;&emsp;`get.gamma.fractions.r` <br>
+&emsp;&emsp;`merge.mc.r`: Aggregates output across Monte Carlo trials into a single output<br>
+&emsp;&emsp;`relative.mc.r`: Makes one Monte Carlo trial output object relative to others. 
 <br>
 
 `assess.krill.fishery.r`: Performance assessment of the fishery in terms of krill catch over multiple fishing scenarios and parameterizations; averages output across parameterizations. Calls the functions: <br>
-`calc.pms.krill.fishery.r`: Calculates performance measures for krill and the fishery.<br>
-`get.gamma.fractions.r` <br>
-`merge.mc.r`
+&emsp;&emsp;`calc.pms.krill.fishery.r`: Calculates performance measures for krill and the fishery.<br>
+&emsp;&emsp;`get.gamma.fractions.r` <br>
+&emsp;&emsp;`merge.mc.r`
 <br>
 
 `assess.regional.krill.r`: Computes regional krill performance measures; averages output across parameterizations. Calls the following functions:<br>
-`calc.pms.regional.krill.r` <br>
-`calc.regional.krill.mc.r`<br>
-`get.gamma.fractions.r`<br>
-`merge.regional.krill.mc.r`<br>
-`relative.regional.krill.mc.r`<br>
+&emsp;&emsp;`calc.pms.regional.krill.r` <br>
+&emsp;&emsp;`calc.regional.krill.mc.r`<br>
+&emsp;&emsp;`get.gamma.fractions.r`<br>
+&emsp;&emsp;`merge.regional.krill.mc.r`<br>
+&emsp;&emsp;`relative.regional.krill.mc.r`<br>
 <br>
 
 **Plotting functions**<br>
@@ -112,7 +111,7 @@ For output from fishery and krill assessment, the convention naming of krill and
     `mlt <- import.all.parameters(file.string ="C:/Users/Desktop/KPFM2/data/mlt.txt")`
     1. Response reports the SSMUs, bathtuns, number of years and seasons – check that these are correct, e.g.: <br>
     `[1] "The setup says you have 15 SSMU(s), 3 BATHTUB(s), 38 YEAR(s) of time series data, and 2 SEASON(s) specified"`
- 5.	Implement a stochastic model run 
+ 5. Implement a stochastic model run 
     1. At minimum, designate the param.list (imported in #3 above), e.g.: <br>
     `> mlt.ss <- ssmu.ss(mlt)`
     1. Model run will produce the plots for abundance, recruitment, and catch by initial spatial unit, SSMU, with all predator groups plotted together. Note plots are relative to initial input, and catch plots will be blank if no fishing occurred. 
