@@ -92,6 +92,7 @@ For output from predator assessment, the risk files are: `[parameterization].[fi
 For output from fishery and krill assessment, the convention naming of merged files is: `[parameterization].[fishing option].merge.mc`. For example: <br>
 >`nlt.1.merge.mc`: Parameterization = no movement + linear, fishing option = 1 
 <br>
+
 For output from fishery and krill assessment, the convention naming of krill and fishery performance files  is: `[parameterization].[fishing option].merge.mc.[krill density threshold].pms`, e.g.: 
 >`nlt.1.merge.mc.15.pms`: Parameterization = no movement + linear, fishing option = 1 , krill density for a threshold violation is 15g/m2.
 
