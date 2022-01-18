@@ -12,7 +12,7 @@ This file contains information on the (1) data input files, (2) code for analysi
 <br>
 
 ## (1) DATA INPUT FILES
-**mlt, mst, nlt, nst**: The four main .txt input for the KPFM2 ecosystem model, one for each parameterization1 across krill movement (no movement, n, and full movement as passive drifters, m) and predator sensitivity to krill availability (hyperstable, s, and linear, l). The parameterizations are run individually in KPFM2. 
+**mlt, mst, nlt, nst**: The four main .txt input for the KPFM2 ecosystem model, one for each parameterization across krill movement (no movement, *n*, and full movement as passive drifters, *m*) and predator sensitivity to krill availability (hyperstable, *s*, and linear, *l*). The parameterizations are run individually in KPFM2. 
 
 <br>
 
